@@ -162,3 +162,7 @@ function setOrbitControls(){
   controls = new THREE.OrbitControls(camera,renderer.domElement);
   controls.autoRotate = true;
 }
+
+$(function() {
+  $(document).snowfall(); // この1行でOK
+});
